@@ -25,7 +25,7 @@ Membres du groupe: \textbf{DELGRANGE FLORENT, LECOQ ALEXIS, LEMPEREUR MARTIN}}
 
 \institute{\textbf{BAC 2 INFO}\\
 Facult\'e des Sciences, Universit\'e de Mons\\
-\email{martin.lempereur@hotmail.be}
+\email martin.lempereur@hotmail.be \{{florent.delgrange | alexis.lecoq}\}@student.umons.ac.be
 %VOUS POUVEZ UTILISER UN AUTRE ADRESSE MAIL QUE CELUI DE L'UMONS SI VOUS LE PREFERIEZ
 }
 
@@ -34,7 +34,11 @@ Facult\'e des Sciences, Universit\'e de Mons\\
 \begin{center} \today \end{center}
 
 Ce rapport de planification est rendu dans le cadre du cours ``Projet de G\'enie Logiciel" (dispens\'e par le Prof. \emph{Tom Mens} en ann\'ee acad\'emique 2014-2015). Le but de ce rapport est d'expliquer quels sont les objectifs
+<<<<<<< HEAD
 du projet, quelles sont les diff\'erentes t\^aches \^a r\'ealiser et planifier c'est diff\'erentes t\^aches.
+=======
+du projet, quelles sont les diff\'erentes t\^aches a r\'ealiser et planifier ces diff\'erentes t\^aches.
+>>>>>>> 3a37a202bea7e5c5c8e58fa1befe3d03102e0955
 
 
 \newpage
@@ -46,7 +50,7 @@ du projet, quelles sont les diff\'erentes t\^aches \^a r\'ealiser et planifier c
 %%Quels sont le contexte et les objectifs du projet de g\'enie logiciel?
 Le travail s'inscrit dans le cadre du projet de G\'enie logiciel.
 \newline Le travail consiste \`a concevoir un jeu de r\^ole dont l'unvivers est celui de l'Unviversit\'e.
-\newline Nous conceverons donc une application java et ce en d\'ecomposant la r\'ealisation  en plusieurs \'etapes cl\'es.
+\newline Nous conceverons donc une application java en d\'ecomposant la r\'ealisation  en plusieurs \'etapes cl\'es.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -85,18 +89,17 @@ BLA BLA BLA
 
 \subsection{Les ressources humaines (personnel)}
 
-\emph{Qui va travailler sur le projet? Quels sont les membres de l'\'equipe? Y a-t-il d'autres parties prenantes (stakeholders) qui ont un int\'er\^et dans le projet? (N'oubliez pas le professeur et les assistants.) Quel est le r\^ole et la responsabilit\'e de chacun? Quel est l'effort fourni par chaque personne (par exemple, plein temps, mi-temps \`a 50\%, etc.)}
-
-\emph{Si vous le d\'esirez vous pouvez utiliser une table ici, comme la table~\ref{tab:RH}.}
-
 \begin{table}[!htbp]
 \begin{center}
-\begin{tabular}{p{1.5cm}|p{1.5cm}|p{1.5cm}|p{2cm}|p{2cm}|p{1.5cm}}
-nom & r\^ole & dur\'ee & responsabilit\'e \\
+\begin{tabular}{p{5cm}|p{5cm}|p{5cm}}
+nom & r\^ole & dur\'ee \\
 \hline
-Florent Delgrange & r\'ealiser le projet & environ 8 mois & conception de l'\'interace graphique, impl\'ementation du framework & \\
-Martin Lempereur  & r\'ealiser le projet & environ 8 mois & impl\'ementation du framework & \\
-Alexis Lecoq  & r\'ealiser le projet & environ 8 mois & impl\'ementation du framework & \\
+Florent Delgrange & d\'eveloppeur & environ 8 mois &  \\
+Martin Lempereur  & d\'eveloppeur & environ 8 mois & \\
+Alexis Lecoq  & d\'eveloppeur & environ 8 mois & \\
+Tom Mens & Titulaire du projet & // & \\
+Mathieu Goeminne & Enseignant & // & \\
+Romuald Deshayes & Assistant & // & \\
 \end{tabular}
 \end{center}
    \caption{Ressources humaines.}
@@ -106,15 +109,15 @@ Alexis Lecoq  & r\'ealiser le projet & environ 8 mois & impl\'ementation du fram
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Les ressources logicielles}
 
-\emph{Quels logiciels seront utilis\'es et pourquoi? Pr\'excisez les caract\'Žristiques de chaque logiciel: son nom, son co\^ut, sa version, son utilit\'e, son type de licence, \ldots.}
-
-\emph{Y a-t-il des logiciels suppl\'ementaires \`a procurer? Estimer le d\'elai et les co\^ut de ces logiciels.}
-
-\emph{Y a-t-il des contraints sur les logiciels ou mat\'eriels \`a utiliser (par exemple, \`a cause de compatibilit\'e et interop\'erabilit\'e avec d'autres syst\`emes existants)? Les choix effectu\'es ici devront \^etre conformes aux exigences de la section~\ref{sec:intro}.}
-
-\emph{Si vous le d\'esirez vous pouvez utiliser une table ici.}
-
-BLA BLA BLA
+Les logiciels utilis\'es dans le cadre du projet sont : \newline
+Gantt Project (gratuit), utilis\'e pour r\'ealiser les diagrammes de Gantt et de PERT. http://www.ganttproject.biz/ \newline
+Visual Paradigm (liscence acad\'emique), utilis\'e pour r\'ealiser les diagrammes lors de la phase 2 (mod\'elisation ; diagramme de cas d'utilisation, de classe, d'\'etat, de s\'equence,...) http://www.visual-paradigm.com/ \newline
+IntelliJ (liscence acad\'emique), environnement de d\'eveloppement. https://www.jetbrains.com/idea/ \newline
+Eclipse (gratuit), environnement de d\'eveloppement. https://www.eclipse.org/ \newline
+Git (gratuit), logiciel de gestion de versions. http://git-scm.com/ \newline
+Maven (gratuit), gestion et automatisation de production des projets logiciels Java. http://maven.apache.org/ \newline
+Vim (gratuit), \'editeur de texte. http://www.vim.org/. \newline
+Kile (gratuit), \'editeur de texte pour les documents écrits en Latex. http://kile.sourceforge.net/
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Les ressources mat\'erielles}
@@ -127,7 +130,6 @@ BLA BLA BLA
 
 \emph{Les choix effectu\'es ici devront \^etre conforme aux contraintes et exigences de la section~\ref{sec:intro}.}
 
-BLA BLA BLA
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
