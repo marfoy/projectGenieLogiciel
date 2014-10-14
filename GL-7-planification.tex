@@ -120,6 +120,7 @@ Les logiciels utilis\'es dans le cadre du projet sont : \newline
 \item JUnit (gratuit), bien qu'il soit int\'egr\'e par d\'efaut dans Eclipse et intelliJ, il est utile de sp\'ecifier que nous utilisons ce framework pour r\'ealiser nos tests unitaires. http://junit.org/ \newline
 \item LibGDX (gratuit), framework utilis\'e pour concevoir l'interface graphique. http://libgdx.badlogicgames.com/ \newline
 \item Tiled Map Editor (gratuit), outil ayant pour objectif de cr\'eer des cartes o\`u le joueur pourra se d\'eplacer (interface graphique). http://www.mapeditor.org/ \newline
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Les ressources mat\'erielles}
@@ -208,7 +209,7 @@ Lecoq Alexis& Microsoft Windows 8.1 (32 bits) & 2 Go & Intel Atom Z3740 Quad-Cor
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Gestion des risques}\label{sec:riskmanagement}
-Le tableau ci-dessous rep
+Le tableau ci-dessous rassemble les différentes solutions à la gestion des risques cit\'es au point pr\'ec\'dent.
 %Pour chaque risque que vous avez retenu dans la section \ref{sec:riskident} (en fonction de son importance), expliquez comment vous comptez 
 %\begin{enumerate}
 %\item \'eviter que le risque se produira
@@ -223,21 +224,21 @@ Le tableau ci-dessous rep
 \hline\hline
 1 & Utilisation d'un gestionnaire de versions & Comparer notre code avec le code d'un autre collaborateur & Récuperer le code d'un autre collaborateur\\
 \hline
-2 & V\'erifier avant l'envoie si le livrable est complet & Relire l\'enonc\'e et regarder si tout apparait dans le livrable & Si le d\'elai n'est pas pass\'e envoyer une nouvelle version compl\`ete\\
+2 & V\'erifier avant l'envoi si le livrable est complet & Relire l'\'enonc\'e et regarder si tout appara\^it dans le livrable & Si le d\'elai n'est pas pass\'e, envoyer une nouvelle version compl\`ete\\
 \hline
-3 & Effectuer r\'eguli\'erement des tests unitaires & Essayer de compiler ou bien tester l'application & Rep\'erer le code d\'effectueux avec des tests unitaires\\
+3 & Effectuer r\'eguli\`erement des tests unitaires & Essayer de compiler ou bien tester l'application & Rep\'erer le code d\'effectueux avec des tests unitaires\\
 \hline
-4 & Tester le code sur plusieurs environnement  & Demander a un collaborateur qui utilise un autre environnement de tester le code & Rep\'erer les endroits non compatibles et les rendre plus g\'en\'eriques\\
+4 & Tester le code sur plusieurs environnements  & Demander \`a un collaborateur qui utilise un autre environnement de tester le code & Rep\'erer les endroits non compatibles et les rendre plus g\'en\'eriques\\
 \hline
-5 & Connaitre le travail effectuer par chaque membre et savoir comment bien le r\'epartir & Envoi d'un email au membre & R\'epartir le travail du membre qui a abandonn\'e entre les autres membres\\
+5 & Conna\^itre le travail effectu\'e par chaque membre et savoir comment bien le r\'epartir & Envoi d'un email au membre & R\'epartir le travail du membre qui a abandonn\'e entre les autres membres\\
 \hline
-6 & R\'ediger une bonne javadoc et comparer la doc avec l'ennonc\'e & Tester toute les focntionnalit\'es demand\'ees dans l'\'enonc\'e & Si le d\'elai n'est pas pass\'e envoyer une nouvelle version compl\`ete du code\\
+6 & R\'ediger une bonne javadoc et comparer la doc avec l'ennonc\'e & Tester toute les focntionnalit\'es demand\'ees dans l'\'enonc\'e & Si le d\'elai n'est pas pass\'e, envoyer une nouvelle version compl\`ete du code\\
 \hline
-7 & Connaitre le travail effectuer par chaque membre et savoir comment bien le r\'epartir & Envoi d'un email au membre & R\'epartir le travail du membre qui est absent entre les autres membres\\
+7 & Conna\^itre le travail effectu\'e par chaque membre et savoir comment bien le r\'epartir & Envoi d'un email au membre & R\'epartir le travail du membre qui est absent entre les autres membres\\
 \hline
-8 & Ameliorer son niveau d'anglais & Essayer de comprendre la documentation qur internet & Faire une demande d'aide sur un forum francophone\\
+8 & Am\'eliorer son niveau d'anglais & Essayer de comprendre la documentation sur internet & Faire une demande d'aide sur un forum francophone\\
 \hline
-9 & Reunion et organisation au sein du groupe pour fixer des horraires & Demander a toutes les personnes d'\^etre pr\'esentes & Repport \^a une date ult\'erieure\\
+9 & Reunion et organisation au sein du groupe pour fixer des horraires & Demander a toutes les personnes d'\^etre pr\'esentes & Report \`a une date ult\'erieure\\
 \hline
 \end{tabular}
 \end{center}
@@ -392,18 +393,18 @@ Rapport d'implementation & 8 & 11.25 p/m & 25/03/15 & 25/03/15 & 0 & 0 \\
 
 %\emph{Analysez les diagrammes en calculant le chemin critique, les temps l\^aches (marge totale) et la marge libre (free float), tout en v\'erifiant que vous avez fait un bon choix. (Si non, vous devriez modifier votre ordonnancement afin de l'optimiser...)
 %Justifiez votre d\'ecision.}
-Sur les diagrammes de PERT on peut voir que le chemin critique est indiqu\'e car la phase 2 dure 7 semaines et la phase 3 dure 16 semaines ce qui nous donne
+Sur les diagrammes PERT, on peut voir que le chemin critique est indiqu\'e car la phase 2 dure 7 semaines et la phase 3 dure 16 semaines ce qui nous donne
 un chemin critique de 23 semaines pour la totalit\'e du projet.
 \newline Les Slack Time, et Free Float sont sont calcul\'es sur le tableau pr\'ec\'edent.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Surveillance}
-En cours de projet pour v\'erifier si un retard peut arriver, nous allons comparer le pourcentage de la t\^ache termin\'e par rapport 
-au pourcentage de temps \'ecoul\'e. 
+En cours de projet, pour v\'erifier si un retard peut arriver, nous allons comparer le pourcentage de la t\^ache termin\'ee par rapport 
+au temps restant. 
 \newline On pourra ainsi rattraper notre retard au augmentant notre temps de travail sur cette t\^ache par exemple.
-\newline Pour \'eviter tout retard nous respecterons les dates de d\'ebut de t\^ache.
+\newline Pour \'eviter tout retard, nous respecterons les dates de d\'ebut de t\^ache.
 
-\smallskip En ce qui concerne les risques, nous essayerons au maximum d'application la gestion des risques d\'ecrite dans le tableau de gestions des risques. (Table : \ref{tab:GestionRisques}, page : \pageref{tab:GestionRisques})
+\smallskip En ce qui concerne les risques, nous essaierons au maximum d'appliquer la gestion des risques d\'ecrite dans le tableau de gestions des risques. (Table : \ref{tab:GestionRisques}, page : \pageref{tab:GestionRisques})
 
 \bibliographystyle{splncs}
 \bibliography{biblio}
