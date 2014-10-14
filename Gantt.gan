@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-12-01" view-index="2" gantt-divider-location="388" resource-divider-location="300" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-09-15" view-index="0" gantt-divider-location="343" resource-divider-location="300" version="2.0" locale="fr">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Nom" width="54" order="0"/>
@@ -43,38 +43,38 @@
         </taskproperties>
         <task id="0" name="Phase 2 : conception et modélisation" color="#8cb6ce" meeting="false" start="2014-10-14" duration="48" complete="0" priority="2" expand="true">
             <depend id="36" type="2" difference="0" hardness="Strong"/>
-            <task id="35" name="Maquette de l'interface utilisateur." color="#00cc33" meeting="false" start="2014-10-14" duration="31" complete="0" expand="true">
+            <task id="35" name="Maquette de l'interface utilisateur." color="#00cc33" meeting="false" start="2014-10-14" duration="43" complete="0" expand="true">
                 <depend id="34" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="2" name="Diagramme de cas d'utilisation" color="#ff3300" meeting="false" start="2014-10-14" duration="6" complete="0" expand="true">
+            <task id="2" name="Diagramme de cas d'utilisation" color="#ff3300" meeting="false" start="2014-10-14" duration="8" complete="0" expand="true">
                 <depend id="34" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" name="Diagramme de classe" color="#ff3300" meeting="false" start="2014-10-14" duration="16" complete="0" priority="2" expand="true">
+            <task id="12" name="Diagramme de classe" color="#ff3300" meeting="false" start="2014-10-14" duration="22" complete="0" priority="2" expand="true">
                 <depend id="14" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Diagramme d'état" color="#ff3300" meeting="false" start="2014-11-05" duration="8" complete="0" expand="true">
+            <task id="14" name="Diagramme d'état" color="#ff3300" meeting="false" start="2014-11-05" duration="10" complete="0" expand="true">
                 <depend id="20" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="20" name="Diagramme de séquence" color="#ff3300" meeting="false" start="2014-11-15" duration="7" complete="0" expand="true">
+            <task id="20" name="Diagramme de séquence" color="#ff3300" meeting="false" start="2014-11-15" duration="11" complete="0" expand="true">
                 <depend id="34" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="34" name="Rapport de modélisation" color="#999999" meeting="false" start="2014-11-26" duration="5" complete="0" expand="true"/>
         </task>
         <task id="36" name="Phase 3 : Implémentation" color="#000000" meeting="false" start="2014-12-17" duration="108" complete="0" expand="true">
-            <task id="51" name="Implémentation" color="#00cc33" meeting="false" start="2014-12-17" duration="65" complete="0" expand="true">
+            <task id="51" name="Implémentation" color="#00cc33" meeting="false" start="2014-12-17" duration="91" complete="0" expand="true">
                 <depend id="48" type="2" difference="0" hardness="Strong"/>
                 <depend id="53" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="45" name="Test unitaires + correction des bugs" color="#ff3300" meeting="false" start="2014-12-17" duration="70" complete="0" expand="true">
+            <task id="45" name="Test unitaires + correction des bugs" color="#ff3300" meeting="false" start="2014-12-17" duration="98" complete="0" expand="true">
                 <depend id="48" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="47" name="Javadoc" color="#99ccff" meeting="false" start="2014-12-17" duration="70" complete="0" expand="true">
+            <task id="47" name="Javadoc" color="#99ccff" meeting="false" start="2014-12-17" duration="98" complete="0" expand="true">
                 <depend id="48" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="53" name="Manuel d'utilisation" color="#ffcc00" meeting="false" start="2015-03-18" duration="13" complete="0" expand="true"/>
-            <task id="48" name="Rapport d'implémentation" color="#999999" meeting="false" start="2015-03-25" duration="8" complete="0" expand="true"/>
+            <task id="53" name="Manuel d'utilisation" color="#ffcc00" meeting="false" start="2015-03-18" duration="17" complete="0" expand="true"/>
+            <task id="48" name="Rapport d'implémentation" color="#999999" meeting="false" start="2015-03-25" duration="10" complete="0" expand="true"/>
         </task>
-        <task id="64" name="Phase 4 : Intégration" color="#8cb6ce" meeting="false" start="2015-04-06" duration="40" complete="0" expand="true"/>
+        <task id="64" name="Phase 4 : Intégration" color="#8cb6ce" meeting="false" start="2015-04-06" duration="54" complete="0" expand="true"/>
     </tasks>
     <resources>
         <custom-property-definition id="tpc0" name="Rôle" type="text"/>
@@ -120,9 +120,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="211" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="87" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="86" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="185" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="77" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="77" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

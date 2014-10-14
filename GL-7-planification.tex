@@ -61,7 +61,7 @@ Nous devons impl\'ementer au moins une qu\^ete principale et secondaire de l'ann
 %%\emph{Quelles sont les exigences sur la qualit\'e (p.e. portabilit\'e, fiabilit\'e, s\^uret\'e, extensibilit\'e, modularit\'e, performance  ou autre)?}
 
 L'application doit \^etre executable sur les syst\`emes exploitation Linux, Mac et Windows.
-\newline Le framework pourra supporter l'ajout de qu\^etes, de caract\`eristiques et m\^eme de classes r\'ealis\'ees par d'\'autres personnes ayant respect\'e l'interface commune.
+\newline Le framework pourra supporter l'ajout de qu\^etes, de caract\`eristiques et m\^eme de classes r\'ealis\'ees par d'autres personnes ayant respect\'e l'interface commune.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Contraintes de temps}
@@ -72,7 +72,7 @@ Dimanche 30 novembre 2014 : date de remise pour la phase 2 (rapport de mod\'elis
 l'interface utilisateur) .\newline
 Fin de la semaine du 10 ou d\'ebut de la semaine du 17 d\'ecembre 2014 : r\'eunions d'inspection de mod\'elisation.\newline
 Jeudi 3 avril 2014 : date de remise de la phase 3 : Impl\'ementation.\newline
-Les dates pour la remise de la phase 4 et de la d\'efense orale et des tests d'acceptation sont encore à determiner.\newline
+Les dates pour la remise de la phase 4 et de la d\'efense orale et des tests d'acceptation sont encore \'a determiner.\newline
 Remarque : du lundi 22 d\'ecembre au vendredi 2 janvier, le blocus commence, il sera donc extr\^emement difficile d'\^etre productif pendant cette p\'eriode.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -213,27 +213,34 @@ Pour chaque risque que vous avez retenu dans la section \ref{sec:riskident} (en 
 
 \subsection{Work Breakdown Structure}
 
-\emph{Mettez la r\'epartition des t\^aches et sous-t\^aches, ou l'horaire du projet ici. Indiquez \'egalement qui fait quelle t\^ache.
-Pour ce faire, vous pouvez inclure une figure ici (extrait d'un outil de planification), ou vous pouvez mettre les informations dans un tableau de t\^aches, comme par exemple Table~\ref{tab:WBS}.}
+%%\emph{Mettez la r\'epartition des t\^aches et sous-t\^aches, ou l'horaire du projet ici. Indiquez \'egalement qui fait quelle t\^ache.
+%%Pour ce faire, vous pouvez inclure une figure ici (extrait d'un outil de planification), ou vous pouvez mettre les informations dans un tableau de t\^aches, comme par exemple Table~\ref{tab:WBS}.}
 
-\begin{table}[htbp]
+%\begin{table}[htbp]
+%\begin{center}
+%\begin{tabular}{|r|p{4cm}||p{2cm}|p{2cm}|c|c|c|}
+%\hline
+%\textbf{ID} & T\^ache & Dates & Responsable & \% travail & Autre remarques\\
+%%\hline\hline
+%T1 & \'Diagramme de cas d'utilisation & 14  & ... l'\'etudiant ... & 100\% &\\
+%%\hline
+%%\hline
+%%T2 & description t\^ache 2 & & &  & \\
+%%\hline
+%%T3 & description t\^ache 3 & & & &\\
+%%\hline
+%%\end{tabular}
+%%\end{center}
+ %%  \caption{Tableau des t\^aches.}
+  %% \label{tab:WBS}
+%%\end{table}
+\begin{figure}[!htb]
 \begin{center}
-\begin{tabular}{|r|p{4cm}||p{2cm}|p{2cm}|c|c|c|}
-\hline
-\textbf{ID} & T\^ache & Dates & Responsable & \% travail & Autre remarques\\
-\hline\hline
-T1 & \'etablir le cahier de charges &  & ... l'\'etudiant ... & 100\% &\\
-\hline
-\hline
-T2 & description t\^ache 2 & & &  & \\
-\hline
-T3 & description t\^ache 3 & & & &\\
-\hline
-\end{tabular}
+\includegraphics{repartition.PNG}
+  \caption{Tableau des t\^aches.}\label{fig:repartition}
 \end{center}
-   \caption{Tableau des t\^aches.}
-   \label{tab:WBS}
-\end{table}
+\end{figure}
+Remarque : la r\'epartition du travail ainsi que les dates ne sont pas d\'efinitives.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Etapes cl\'es }
@@ -273,18 +280,18 @@ l'interface utilisateur.\normalsize \\
 
 \subsection{Diagramme GANTT}
 
-\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes de GANTT, comme ceux montr\'es dans les Figures~\ref{fig:GANTT} et~\ref{fig:GANTT2}. \`A vous de choisir comment g\'en\'erer le(s) diagramme(s). Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
+%%\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes de GANTT, comme ceux montr\'es dans les Figures~\ref{fig:GANTT} et~\ref{fig:GANTT2}. \`A vous de choisir comment g\'en\'erer le(s) diagramme(s). Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
 
 \begin{figure}[!htb]
 \begin{center}
-%%  \includegraphics[width=\textwidth]{GANTT.jpg}
+\includegraphics[width=\textwidth]{GANTT.jpg}
   \caption{Exemple d'un diagramme GANTT.}\label{fig:GANTT}
 \end{center}
 \end{figure}
 
 \begin{figure}[!htb]
 \begin{center}
-%%  \includegraphics[width=\textwidth]{GANTT2.jpg}
+\includegraphics[width=\textwidth]{GANTT2.jpg}
   \caption{Un autre exemple d'un diagramme GANTT.}\label{fig:GANTT2}
 \end{center}
 \end{figure}
@@ -312,12 +319,12 @@ id tache 3 & \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diagramme PERT}
 
-\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes  PERT, comme ceux montr\'es dans les Figure~\ref{fig:PERT} et Figure~\ref{fig:PERT2}. \`A vous de choisir comment g\'en\'erer ce diagramme. Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
+%%\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes  PERT, comme ceux montr\'es dans les Figure~\ref{fig:PERT} et Figure~\ref{fig:PERT2}. \`A vous de choisir comment g\'en\'erer ce diagramme. Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
 
 \begin{figure}[!htb]
 \begin{center}
 \includegraphics[width=16CM]{PERT.PNG}
-  \caption{Exemple d'un diagramme PERT.}\label{fig:PERT}
+  \caption{Diagramme de PERT de la phase 1.}\label{fig:PERT}
 \end{center}
 \end{figure}
 
@@ -325,7 +332,7 @@ id tache 3 & \\
 
 \begin{center}
 \includegraphics[width=25cm]{PERT4.PNG}
-  \caption{Un autre exemple d'un diagramme PERT.}\label{fig:PERT2}
+  \caption{Diagramme de PERT de la phase 2.}\label{fig:PERT2}
 \end{center}
 \end{figure}
 
