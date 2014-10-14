@@ -4,6 +4,7 @@
 
 \usepackage{graphicx}
 \usepackage{times}
+\usepackage{here}
 %\usepackage{rotate}
 %\usepackage{lscape}
 
@@ -317,55 +318,30 @@ l'interface utilisateur. \\
 
 \subsection{Diagramme GANTT}
 
-%%\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes de GANTT, comme ceux montr\'es dans les Figures~\ref{fig:GANTT} et~\ref{fig:GANTT2}. \`A vous de choisir comment g\'en\'erer le(s) diagramme(s). Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
-
-\begin{figure}[!htb]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{Gantt1.png}
   \caption{Diagramme Gantt de la phase 1.}\label{fig:Phase 1}
 \end{center}
 \end{figure}
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{Gantt2.png}
   \caption{Diagramme Gantt de la phase 2.}\label{fig:Phase 2}
 \end{center}
 \end{figure}
 
-%%\emph{N'oubliez pas d'indiquer, sur le diagramme, les \'etapes cl\'es et les d\'ependances entre les t\^aches. Si l'outil que vous avez utilis\'e ne permet pas de faire cela, vous pouvez mettre cette information dans une table s\'epar\'ee, comme par exemple Table~\ref{tab:GANTT}.}
-
-%\begin{table}[htbp]
-%\begin{center}
-%\begin{tabular}{|p{2cm}||c|c||c|}
-%\hline
-%\textbf{T\^ache} & Pr\'edecesseurs \\
-%\hline\hline
-%id tache 1 &   \\
-%\hline
-%id tache 2 &  \\
-%\hline
-%id tache 3 & \\
-%\hline
-%µ\end{tabular}
-%\end{center}
- %  \caption{D\'ependances entre les t\^aches.}
- %  \label{tab:GANTT}
-%\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diagramme PERT}
 
-%%\emph{Vous devriez inclure et discuter ici un ou plusieurs diagrammes  PERT, comme ceux montr\'es dans les Figure~\ref{fig:PERT} et Figure~\ref{fig:PERT2}. \`A vous de choisir comment g\'en\'erer ce diagramme. Pr\'ecisez le ou les outils utilis\'es pour la cr\'eation de chaque diagramme.}
-
-\begin{figure}[!htb]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{PERT1.PNG}
   \caption{Diagramme PERT de la phase 1.}\label{fig:PERT1}
 \end{center}
 \end{figure}
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{PERT2.PNG}
   \caption{Diagramme PERT de la phase 2.}\label{fig:PERT2}
@@ -375,12 +351,12 @@ l'interface utilisateur. \\
 %%Si l'outil que vous avez utilis\'e pour g\'en\'erer le diagramme PERT le permet, vous devriez indiquer dans le diagramme, pour chaque t\^ache, la dur\'ee, l'effort (en personne/mois), le temps "Earliest Start (ES)", le temps "Latest Start (LS)", le temps l\^ache (\emph{Slack Time (ST)}), et le \emph{Free Float (FF)}. Le diagramme doit \'egalement montrer o\`u se trouve le(s) chemin(s) critique(s).
 
 %%Si l'outil que vous avez utilis\'e ne le permet pas vous devriez mettre ces informations dans une table s\'epar\'ee, comme par exemple la Table~\ref{tab:PERT}.
-
+Voici des informations plus pr\'ecises sur les diagrammes PERT :
 \begin{table}[htbp]
 \begin{center}
 \begin{tabular}{|p{4cm}||c|c|c|c|c|c|}
 \hline
-\textbf{T\^ache} & Dur\'ee (jours) & Effort & Earliest Start & Latest Start & Slack Time & Free Float\\
+\textbf{T\^ache} & Dur\'ee (jours) & Effort (personne/mois) & Earliest Start & Latest Start & Slack Time & Free Float\\
 \hline\hline
 Diagramme de classes & 16 & 5.625 p/m & 14/10/14 &  14/10/14  & 0 & 0 \\
 \hline
@@ -407,7 +383,7 @@ Rapport d'implementation & 8 & 11.25 p/m & 25/03/15 & 25/03/15 & 0 & 0 \\
 \end{tabular}
 \end{center}
    \caption{Informations temporelles importantes sur les t\^aches.}
-   \label{tab:PERT}
+   \label{tab:PERT3}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -419,9 +395,9 @@ Justifiez votre d\'ecision.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Surveillance}
 
-\emph{Expliquez comment vous comptez surveiller les retards \'eventuels du projet quand il est en cours de route. Quelle proc\'edure allez vous suivre pour d\'etecter et \'eviter ces retards? Qu'allez vous faire quand un retard se manifeste?}
+%%\emph{Expliquez comment vous comptez surveiller les retards \'eventuels du projet quand il est en cours de route. Quelle proc\'edure allez vous suivre pour d\'etecter et \'eviter ces retards? Qu'allez vous faire quand un retard se manifeste?}
 
-\emph{Expliquez \'Žgalement comment vous comptez surveiller les risques.}
+%%\emph{Expliquez \'Žgalement comment vous comptez surveiller les risques.}
 
 \bibliographystyle{splncs}
 \bibliography{biblio}
