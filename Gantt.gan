@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-09-15" view-index="0" gantt-divider-location="343" resource-divider-location="300" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-09-15" view-index="0" gantt-divider-location="620" resource-divider-location="300" version="2.0" locale="fr">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="54" order="0"/>
-        <field id="tpd4" name="Date de début" width="22" order="1"/>
-        <field id="tpd5" name="Date de fin" width="22" order="2"/>
+        <field id="tpd3" name="Nom" width="37" order="0"/>
+        <field id="tpd4" name="Date de début" width="19" order="1"/>
+        <field id="tpd5" name="Date de fin" width="19" order="2"/>
+        <field id="tpc0" name="Resposable" width="23" order="3"/>
         <option id="taskLabelUp" value="name"/>
         <option id="taskLabelDown" value="taskDates"/>
     </view>
@@ -40,6 +41,7 @@
             <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Resposable" type="custom" valuetype="text" defaultvalue="Alexis, Florent, Martin"/>
         </taskproperties>
         <task id="0" name="Phase 2 : conception et modélisation" color="#8cb6ce" meeting="false" start="2014-10-14" duration="48" complete="0" priority="2" expand="true">
             <depend id="36" type="2" difference="0" hardness="Strong"/>
@@ -118,11 +120,12 @@
         <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="181" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="185" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="77" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="77" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="229" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="121" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="122" visible="true"/>
+        <displaycolumn property-id="tpc0" order="3" width="144" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
